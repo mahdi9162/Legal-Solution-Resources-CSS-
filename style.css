@@ -1,0 +1,49 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--bg--color);
+    color: var(--text-color);
+}
+
+/* CSS Variables */
+:root {
+    --text-color: #075B5E;
+    --bg--color: #FFE6E1;
+    --brand-color: #FF3F33;
+    --p-color: #707070;
+    --white-color: whitesmoke;
+
+    --h2-font: 2.5rem;
+    --h3-font: 2rem;
+}
+
+/* Repeated Style */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section-gap {
+    margin: 120px auto;
+}
+
+.btn {
+    color: var(--white-color);
+    background-color: var(--brand-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 18px 30px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    transition: all .35s ease;
+}
+
+/* End Repeated Style */
